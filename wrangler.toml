@@ -1,0 +1,40 @@
+# Cloudflare Worker Configuration
+# 
+# IMPORTANT: Update these settings for your site:
+# 1. Change "name" to something unique for your project
+# 2. Set your ORIGIN_URL in the [vars] section below
+# 3. Add your SPYGLASSES_API_KEY as a secret (see README)
+
+name = "my-spyglasses-worker"
+main = "src/index.ts"
+compatibility_date = "2024-12-30"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment Variables
+# ALL variables should be set in the Cloudflare dashboard for easier setup
+# Go to: Workers & Pages > Your Worker > Settings > Variables
+
+# REQUIRED VARIABLES (set these in Cloudflare dashboard):
+# - ORIGIN_URL: Your website's URL (e.g., https://your-site.webflow.io)
+# - SPYGLASSES_API_KEY: Your API key from Spyglasses (set as Secret)
+
+# OPTIONAL VARIABLES (set these in Cloudflare dashboard if needed):
+# - SPYGLASSES_DEBUG: Set to "true" for detailed logging
+# - SPYGLASSES_COLLECTOR_ENDPOINT: Custom endpoint (leave blank for default)
+
+# Uncomment and edit these if you prefer to set them in this file:
+# [vars]
+# ORIGIN_URL = "https://your-site.webflow.io"
+# SPYGLASSES_DEBUG = "false"
+
+# Production environment
+[env.production]
+name = "my-spyglasses-worker"
+
+# Staging environment (optional)
+[env.staging]
+name = "my-spyglasses-worker-staging"
+
+# NOTE: SPYGLASSES_API_KEY should be set as a secret, not here
+# Use the Cloudflare dashboard: Workers & Pages > Your Worker > Settings > Variables
+# Or use: npx wrangler secret put SPYGLASSES_API_KEY 

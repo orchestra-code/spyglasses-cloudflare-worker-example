@@ -1,0 +1,33 @@
+{
+  "name": "spyglasses-cloudflare-worker-example",
+  "version": "1.0.0",
+  "description": "Example Cloudflare Worker with Spyglasses bot detection for Webflow and other platforms. It provides comprehensive AI SEO, shows you when your site features in ChatGPT, Claude, Perplexity, and other AI assistant chat platforms. It can also prevent your site's content from being used for training AI by blocking the crawlers that scrape your content for training.",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "spyglasses",
+    "bot-detection",
+    "webflow",
+    "AI SEO",
+    "AI Analytics",
+    "AI Agent Detection",
+    "AI Model Blocking",
+    "AI Referrer Tracking",
+    "AI Crawler Detection",
+    "AI Bot Detection"
+  ],
+  "author": "Orchestra AI, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "@spyglasses/cloudflare-worker": "^1.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.91.0"
+  }
+} 
