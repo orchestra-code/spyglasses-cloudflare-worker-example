@@ -148,8 +148,8 @@ In your Spyglasses dashboard, you'll get:
 
 ## 🎓 Learning More
 
-- 📖 **[Full Documentation](https://docs.spyglasses.io/platforms/cloudflare-workers)** - Complete setup guide
-- 🌐 **[Webflow-Specific Guide](https://docs.spyglasses.io/platforms/webflow)** - Webflow integration details
+- 📖 **[Full Documentation](https://www.spyglasses.io/en/docs/platforms/cloudflare-workers)** - Complete setup guide
+- 🌐 **[Webflow-Specific Guide](https://www.spyglasses.io/en/docs/platforms/webflow)** - Webflow integration details
 - 💬 **[Support](mailto:support@spyglasses.io)** - Get help from our team
 
 ## 💰 Pricing
@@ -167,7 +167,7 @@ In your Spyglasses dashboard, you'll get:
 Need help? We're here for you:
 
 - 📧 **Email**: support@spyglasses.io
-- 📖 **Documentation**: [docs.spyglasses.io](https://docs.spyglasses.io)
+- 📖 **Documentation**: [Cloudflare workers](https://www.spyglasses.io/en/docs/platforms/cloudflare-workers)
 - 🐛 **Issues**: [Report bugs or request features](https://github.com/orchestra-code/spyglasses-cloudflare-worker-example/issues)
 
 ---
